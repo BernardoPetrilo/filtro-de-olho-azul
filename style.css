@@ -1,0 +1,20 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name: teste; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes teste{
+    0%{box-shadow: 10px 10px 50px red;}
+    30%{box-shadow: 10px 10px 50px yellow;}
+    70%{box-shadow: 10px 10px 50px greenyellow;}
+    100%{box-shadow: 10px 10px 50px blue;}
+  }
+  .btn-success:hover{
+    background-color: yellow;
+    color: black
+  }
